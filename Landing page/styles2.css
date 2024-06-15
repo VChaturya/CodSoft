@@ -1,0 +1,184 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header {
+    background-color: black;
+    color: #fff;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .header h1 {
+    margin: 20px;
+    font-size: 1.8em;
+    text-align: center;
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: url('https://c0.wallpaperflare.com/preview/1009/373/96/cosmetics-face-cream-creams-shell-of-a-snail.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: left;
+    padding: 200px 0;
+    margin-top:20px;
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .image{
+    height:100px;
+    width:100px;
+  }
+  .image1{
+    height:200px;
+    width:100px;
+  }
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .section {
+    padding: 80px 0;
+  }
+  
+  .features {
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin: 20px;
+    max-width: 300px;
+  }
+  
+  .feature i {
+    font-size: 3em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-grid {
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin: 20px;
+    max-width: 300px;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .contact-section {
+    background-color: #f0f0f0;
+    padding: 80px 0;
+  }
+  
+  .contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section form input, .contact-section form textarea, .contact-section form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-section form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-section form button:hover {
+    background-color: #45a049;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+.heading1{
+  font-size:30px;
+}
